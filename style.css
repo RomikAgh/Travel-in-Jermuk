@@ -50,11 +50,56 @@ body{
 }
 /*Main*/
 
-.slider
-{
-    left: 20%;
-    height: 500px;
-    width: 750px;
-    position: relative;
+.slider{
+   /* border: 1px solid black;*/
     overflow: hidden;
+    height: 502px;
+    width: 1024px;
+    margin: 30px auto;
+    padding: 0;
+}
+
+
+.slider-line
+{
+    height: 502px;
+    width: 752px;
+    display: flex;
+    border: 1px solid black;
+    position: relative;
+    left: 0;;
+    transition: all ease 1s;
+}
+.one{
+    border-radius: -17px;
+    width: 50px;
+    bottom: 15px;
+    color: black;
+    cursor: pointer;
+
+}
+.one:hover{
+    opacity: .5;
+}
+.three{
+    border-radius: -17px;
+    width: 50px;
+    bottom: 15px;
+    color: black;
+    cursor: pointer;
+
+}
+.three:hover{
+    opacity: .5;
+}
+.two{
+    border-radius: -17px;
+    width: 50px;
+    bottom: 15px;
+    color: black;
+    cursor: pointer;
+
+}
+.two:hover{
+    opacity: .5;
 }
